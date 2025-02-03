@@ -27,11 +27,13 @@ Para estagiários, não é necessário criar automações de testes. No entanto,
 - Importante: Não utilizamos padrões como Page Objects.
 
 ### 3. Entendimento do repositório
-- Na pasta cypress do projeto, há dois arquivos em PDF:
+- PDF's:
     Documentação-Casos-de-Teste.pdf – Contém os casos de teste manuais descritos no padrão Gherkin.
     Resultados-Casos-de-Teste.pdf – Apresenta os resultados exibidos na plataforma do Cypress, incluindo testes manuais e testes de API.
 
-- Além disso, dentro da pasta e2e, há dois arquivos principais:
-    api.cy.js – Contém os testes automatizados para verificação do funcionamento das rotas da API.
-    testesGherkin.cy.js – Contém os testes automatizados baseados nos casos de teste manuais descritos em Gherkin.
+- Pasta Cypress:
+    - Após acessar ela, acesse a pasta e2e, notará que há dois arquivos principais:
+        api.cy.js – Contém os testes automatizados para verificação do funcionamento das rotas da API.
+        testesGherkin.cy.js – Contém os testes automatizados baseados nos casos de teste manuais descritos em Gherkin.
+      
 - Por fim, o arquivo cypress.config.js define a configuração necessária para acessar a API.
